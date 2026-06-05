@@ -1,10 +1,13 @@
 import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import LoginButton from "@/components/auth/LoginButton";
+import UserProfile from "@/components/auth/UserProfile";
 
 export default function Home() {
   return (
     <>
+
       <Navbar />
 
       <main className="mx-auto flex min-h-[80vh] max-w-7xl flex-col items-center justify-center px-6 text-center">
@@ -41,3 +44,4 @@ export default function Home() {
     </>
   );
 }
+
