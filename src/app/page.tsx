@@ -9,9 +9,9 @@ export default function Home() {
 
       <main className="mx-auto flex min-h-[80vh] max-w-7xl flex-col items-center justify-center px-6 text-center">
         <h1 className="mb-6 text-5xl font-bold">
-          Discover and Contribute to
+          Discover and Contribute to{" "}
           <span className="text-blue-600">
-            {" "}Open Source
+            Open Source
           </span>
         </h1>
 
